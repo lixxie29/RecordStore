@@ -1,0 +1,9 @@
+# ninja log v5
+1786	1971	1652210718687289419	RecordStore	1d2602b783561172
+7	1785	1652210718497385271	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
+26	1877	1652141812692455868	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
+5	1755	1652210718466585104	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
+16	418	1652205524412218114	CMakeFiles/RecordStore.dir/Undo.cpp.o	1c6d582b3471a642
+3	473	1652139068341306544	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
+7	1706	1652210718408386021	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+1	171	1652210801093823282	build.ninja	2168b584265d62fb

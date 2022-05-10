@@ -1,0 +1,3 @@
+/Users/lixxeil/CLionProjects/RecordStore/cmake-build-debug/CMakeFiles/RecordStore.dir
+/Users/lixxeil/CLionProjects/RecordStore/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lixxeil/CLionProjects/RecordStore/cmake-build-debug/CMakeFiles/rebuild_cache.dir
