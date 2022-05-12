@@ -14,7 +14,7 @@ class Controller {
 public:
     //  constructor for the controller class
     Controller();
-    Controller(Repository* repo);
+    Controller(Repository& repo);
 
     //  deconstructor for the controller class
     ~Controller();
@@ -40,16 +40,19 @@ public:
     int getNumberRecords();
 
     //  function that displays a record's/an object's information/fields
-    void showRecord(Record& r);
+    static void showRecord(Record& r);
 
     //  function that shows/returns the most expensive record
-    Record mostExpensiveRecord();
+    Record* mostExpensiveRecord();
 
     //  function that filters the records by year
     vector<Record*> filterByYear(unsigned int yr);
 
     //  function that filters the records by price
     vector<Record*> filterByPrice(float p);
+
+    //  function that filters the records by artist
+    vector<Record*> filterByArtist(string artName);
 
 private:
     Repository repo;

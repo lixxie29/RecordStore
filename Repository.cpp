@@ -4,6 +4,8 @@
 
 #include "Repository.h"
 #include <exception>
+#include <iostream>
+using namespace std;
 
     //  constructor of the repository
     Repository::Repository()= default;
@@ -12,7 +14,7 @@
     Repository::~Repository()= default;
 
     //  inserts/adds record to the repository
-    void Repository::addRecord(Record *r)
+    void Repository::addRecord(Record* r)
     {
         records.push_back(r);
     }
@@ -52,7 +54,7 @@
         //return 0              // same situation as in the previous functions
     }
 
-    //  getter for the size of the repository
+    //  getter for the size of the repository/ number of records in the repository
     int Repository::getSize()
     {
         return (int)this->records.size();

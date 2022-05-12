@@ -98,6 +98,15 @@ string Record::toString()
 }
 
 
+//  getter of the support platform of the "Cassette" object
+vector<Support> Record::getSupportType()
+{
+    vector<Support> st;
+    st.push_back(Support::AUDIO_PLAYER);
+    return st;
+}
+
+
 
 //  CASSETTE
 //  constructor of the "Cassette" object

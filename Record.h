@@ -45,7 +45,7 @@ public:
     void setPrice(float p);
 
     // pure virtual functions
-    virtual vector<Support> getSupportType() = 0;
+    virtual vector<Support> getSupportType();
     virtual string toString();
 
 protected:
