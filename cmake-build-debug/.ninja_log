@@ -7,3 +7,7 @@
 3	473	1652139068341306544	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
 7	1706	1652210718408386021	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
 1	171	1652210801093823282	build.ninja	2168b584265d62fb
+6	2968	1652493199034072967	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
+9	3009	1652493199075124940	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
+12	3019	1652493199086923156	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+8	3035	1652493199103778816	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
