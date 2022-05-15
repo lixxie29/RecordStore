@@ -38,7 +38,7 @@ void UserInterface::showMenu()
     while(true)
     {
         cout << endl;
-        cout << "Input preffered option >>> ";
+        cout << "Input preferred option >>> ";
         cin >> option;
         switch (option)
         {
@@ -73,6 +73,18 @@ void UserInterface::add_fct()
     string recordName;
     int duration, year;
     float price;
+    cout << "Enter id >>> ";
+    cin >> id;
+    cout << endl << "Enter duration >>> ";
+    cin >> duration;
+    cout << endl << "Enter artist name >>> ";
+    cin >> artistName;
+    cout << endl << "Enter record name >>> ";
+    cin >> recordName;
+    cout << endl << "Enter year >>> ";
+    cin >> year;
+    cout << endl << "Enter price >>> ";
+    cin >> price;
     this->ctrl.add(id, duration, artistName, recordName, year, price);
     cout << endl << endl;
 }
