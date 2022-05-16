@@ -224,7 +224,7 @@ void UserInterface::getAll_fct()
 
 void UserInterface::getNumberRecords_fct()
 {
-    cout << " The number of records present in repository are " << this->ctrl.getNumberRecords() << endl << endl;
+    cout << " The number of records present in repository are: " << this->ctrl.getNumberRecords() << endl << endl;
 }
 
 
@@ -250,5 +250,71 @@ void UserInterface::showRecord_fct()
     cout << endl << "Enter price >>> ";
     cin >> price;
     Record r(id, duration, artistName, recordName, year, price);
-    Controller::showRecord(r);
+    cout << r.toString();
+    cout << endl;
+}
+
+
+// displays the most expensive record in the repository
+
+void UserInterface::mostExpensiveRecord_fct()
+{
+    Record *r = this->ctrl.mostExpensiveRecord();
+    cout << "The most expensive record is ";
+    cout << r->toString();
+    cout << endl;
+}
+
+
+// filters and displays records based on the year they were created/produced in
+
+void UserInterface::filterByYear_fct()
+{
+    cout << "Enter preferred filtering year >>>";
+    unsigned int year;
+    cin >> year;
+    vector <Record*> rez = this->ctrl.filterByYear(year);
+    if (rez.size() != 0)
+    {
+        cout << "Filtered list of records by year: " << endl;
+        displayEveryRecord(rez);
+    }
+    else
+        cout << "There's no record that contains inputted information." << endl;
+}
+
+
+// filters and displays records based on the price they have
+
+void UserInterface::filterByPrice_fct()
+{
+    cout << "Enter preferred filtering price >>>";
+    float price;
+    cin >> price;
+    vector <Record*> rez = this->ctrl.filterByPrice(price);
+    if (rez.size() != 0)
+    {
+        cout << "Filtered list of records by price: " << endl;
+        displayEveryRecord(rez);
+    }
+    else
+        cout << "There's no record that contains inputted information." << endl;
+}
+
+
+// filters and displays records based on the artist that produced/created them
+
+void UserInterface::filterByArtist_fct()
+{
+    cout << "Enter preferred filtering price >>>";
+    string artistName;
+    cin >> artistName;
+    vector <Record*> rez = this->ctrl.filterByArtist(artistName);
+    if (rez.size() != 0)
+    {
+        cout << "Filtered list of records by artist: " << endl;
+        displayEveryRecord(rez);
+    }
+    else
+        cout << "There's no record that contains inputted information." << endl;
 }
