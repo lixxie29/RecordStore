@@ -24,7 +24,7 @@ private:
     void update_fct();
     void getAll_fct();
     void getNumberRecords_fct();
-    void showRecord_fct();
+    static void showRecord_fct();
     void mostExpensiveRecord_fct();
     void filterByYear_fct();
     void filterByPrice_fct();
