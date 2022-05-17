@@ -7,8 +7,8 @@
 #include "Record.h"
 
 #include <string>
-#include <iostream>
-#include <algorithm>
+// #include <iostream>
+// #include <algorithm>
 
 //  constructor/deconstructor of the controller
 Controller::Controller() {}
@@ -128,3 +128,14 @@ vector<Record *> Controller::filterByArtist(string artName)
     }
     return final_recs;
 }
+
+//void Controller::undo_version()
+//{
+//	if (this->undo.get_size() == 0)
+//		cout << "Can't undo last command" << endl;
+//	else if (this->undo.get_size() == 1)
+//	{
+//		vector<vector<Record*>> ver = this->undo.get_versions();
+//		this->repo.undo_version(ver[ver.size() - 1]);
+//	}
+//}

@@ -54,8 +54,12 @@ public:
     //  function that filters the records by artist
     vector<Record*> filterByArtist(string artName);
 
+    // undo function
+    // void undo_version();
+
 private:
     Repository repo;
+    // Undo undo;
 };
 
 

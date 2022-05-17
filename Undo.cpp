@@ -3,3 +3,6 @@
 //
 
 #include "Undo.h"
+
+using namespace std;
+ Undo::Undo(){this->size = 0;}

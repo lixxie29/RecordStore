@@ -11,3 +11,7 @@
 9	3009	1652493199075124940	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
 12	3019	1652493199086923156	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
 8	3035	1652493199103778816	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
+11	1409	1652778031402669355	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
+12	1460	1652778031455559284	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+12	1520	1652778031513225364	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
+1520	2033	1652778032033312143	RecordStore	1d2602b783561172
