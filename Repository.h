@@ -18,6 +18,9 @@ public:
     //  constructor for the repository
     Repository();
 
+    // repository file i suppose
+    // Repository (const char* filename)
+
     //  deconstructor for the repository
     ~Repository();
 
@@ -46,6 +49,7 @@ public:
     friend ostream& operator<<(ostream& s, const Repository& repo);
 
 private:
+    // const char* filename;
     vector<Record*> records;
 };
 

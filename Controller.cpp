@@ -24,8 +24,8 @@ Controller::~Controller() {}
 //  doesn't return anything
 void Controller::add(string i, unsigned int dur, string artName, string recName, unsigned int yr, float p)
 {
-    Record r(i, dur, artName, recName, yr, p);
-    this->repo.addRecord(&r);
+    Record *r= new Record(i, dur, artName, recName, yr, p);
+    this->repo.addRecord(r);
 }
 
 
@@ -66,9 +66,9 @@ int Controller::getNumberRecords() {
 }
 
 //  function that displays a record's information
-void Controller::showRecord(Record &r) {
-    r.toString();
-}
+//void Controller::showRecord(Record &r) {
+//    r.toString();
+//}
 
 //  function that returns the most expensive record
 Record* Controller::mostExpensiveRecord() {

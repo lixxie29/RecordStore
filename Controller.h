@@ -40,7 +40,7 @@ public:
     int getNumberRecords();
 
     //  function that displays a record's/an object's information/fields
-    static void showRecord(Record& r);
+    // void showRecord(Record& r);
 
     //  function that shows/returns the most expensive record
     Record* mostExpensiveRecord();
