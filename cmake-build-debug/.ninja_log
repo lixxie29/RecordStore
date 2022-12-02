@@ -1,16 +1,16 @@
 # ninja log v5
-2065	2213	1652786214020025327	RecordStore	1d2602b783561172
-3	2282	1652785942319456839	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
-4	2313	1652785942348205326	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
-1	171	1653374351026778382	build.ninja	2168b584265d62fb
-8	3035	1652493199103778816	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
-6	2270	1652785942301822612	CMakeFiles/RecordStore.dir/Undo.cpp.o	1c6d582b3471a642
-4	2365	1652785942404316685	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
-3	2065	1652786213862752612	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
-18	2310	1653374497252055821	CMakeFiles/RecordStore.dir/Undo.cpp.o	1c6d582b3471a642
+2397	2540	1653374497497619071	RecordStore	1d2602b783561172
 6	2326	1653374497276472408	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
 14	2361	1653374497311763534	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
-16	2370	1653374497320291703	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+1	171	1664792165676112892	build.ninja	2168b584265d62fb
 13	2380	1653374497328761775	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
+18	2310	1653374497252055821	CMakeFiles/RecordStore.dir/Undo.cpp.o	1c6d582b3471a642
 15	2397	1653374497351688721	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
-2397	2540	1653374497497619071	RecordStore	1d2602b783561172
+16	2370	1653374497320291703	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+23	2314	1664792185057538656	CMakeFiles/RecordStore.dir/Undo.cpp.o	1c6d582b3471a642
+7	2346	1664792185087501681	CMakeFiles/RecordStore.dir/main.cpp.o	1c2e5da04ac892ab
+15	2426	1664792185167193353	CMakeFiles/RecordStore.dir/Repository.cpp.o	6e5a6ecaab055089
+14	2427	1664792185168276001	CMakeFiles/RecordStore.dir/Record.cpp.o	63378d9ec17482f4
+18	2429	1664792185172960118	CMakeFiles/RecordStore.dir/Controller.cpp.o	36eba664772ef875
+15	2480	1664792185228598541	CMakeFiles/RecordStore.dir/UserInterface.cpp.o	d2dfbaefd31d0b1e
+2480	3070	1664792185824735702	RecordStore	1d2602b783561172
